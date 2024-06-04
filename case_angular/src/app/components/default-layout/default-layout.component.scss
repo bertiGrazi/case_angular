@@ -23,12 +23,12 @@ main {
     gap: 8px;
     height: 100%;
 
-    flex-grow: 1;
+    flex-grow: 0.3;
     background-color: $gray-background;
   }
 
   .form-section {
-    flex-grow: 0.7;
+    flex-grow: 1;
     padding: 0 35px;
 
     h2 {
@@ -64,6 +64,11 @@ main {
         background-color: 1px solid $primary-color;
         color: $text-color;
       }
-}
+  }
+  }
+
+  .img-main {
+    height: 100%;
+    width: 100vh;
   }
 }
