@@ -3,4 +3,17 @@ form {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  margin-bottom: 24px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+}
+
+.input-group-append {
+  margin-top: 12px;
+  padding: 12px 12px;
 }
