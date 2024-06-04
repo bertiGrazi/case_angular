@@ -1,13 +1,15 @@
 import { Component } from '@angular/core';
 import { DefaultLayoutComponent } from '../../components/default-layout/default-layout.component';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import { PrimaryInputComponent } from '../../components/primary-input/primary-input.component';
 
 @Component({
   selector: 'app-register',
   standalone: true,
   imports: [
     DefaultLayoutComponent,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    PrimaryInputComponent
   ],
   templateUrl: './register.component.html',
   styleUrl: './register.component.scss'
