@@ -3,26 +3,14 @@
     <!--Nome do item-->
     <app-primary-input inputName="nameItem" type="text" placeholder="Nome do item" formControlName="nameItem" label="Nome do item"></app-primary-input>
 
-    <!--Unidade de medida-->
     <div class="input-group">
-      <app-primary-input inputName="nameItem" type="number" placeholder="Unidade de medida" formControlName="nameItem" label="Unidade de medida" step="0.001"></app-primary-input>
-      <div class="input-group-append">
-        <span class="input-group-text">kg</span>
-      </div>
+      <!--Unidade de medida-->
+      <app-primary-input inputName="unit" type="number" placeholder="" formControlName="unit" label="Unidade de medida"></app-primary-input>
+      <span class="input-group-append">lt</span>
+
       <!--Quantidade-->
-      <app-primary-input inputName="nameItem" type="number" placeholder="Quantidade" formControlName="nameItem" label="Quantidade"></app-primary-input>
-
+      <app-primary-input inputName="unit" type="number" placeholder="" formControlName="quantity" label="Unidade de medida"></app-primary-input>
+      <span class="input-group-append">kg</span>
     </div>
-
-
-
-    <!--Produto Perecível-->
-    <app-primary-input inputName="nameItem" type="number" placeholder="Produto Perecível" formControlName="nameItem" label="Produto Perecível"></app-primary-input>
-
-    <!--Data de Validade-->
-    <app-primary-input inputName="nameItem" type="number" placeholder="Data de Validade" formControlName="nameItem" label="Data de Validade"></app-primary-input>
-
-    <!--Data de fabricação-->
-    <app-primary-input inputName="nameItem" type="number" placeholder="Data de fabricação" formControlName="nameItem" label="Data de fabricação"></app-primary-input>
   </form>
 </app-default-layout>

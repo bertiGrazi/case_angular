@@ -1,7 +1,7 @@
 import { Component, Input, forwardRef } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR, ReactiveFormsModule } from '@angular/forms';
 
-type InputTypes = "text" | "number" | "data"
+type InputTypes = "text" | "number" | "data" | "checkbox"
 
 @Component({
   selector: 'app-primary-input',

@@ -23,7 +23,9 @@ export class RegisterComponent {
         Validators.required,
         Validators.maxLength(50),
         Validators.pattern('^[a-zA-Z]+$')
-      ]) 
+      ]),
+      unit: new FormControl('', Validators.required),
+      quantity: new FormControl(''),
     })
   }
 }
